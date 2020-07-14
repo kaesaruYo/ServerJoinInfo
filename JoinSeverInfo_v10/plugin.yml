@@ -1,0 +1,7 @@
+name: JoinServerInfo
+main: worldofdream\main
+author: ははっち
+version: 10
+api: 3.14.0
+load: POSTWORLD
+description: サーバー参加時にお知らせを表示
