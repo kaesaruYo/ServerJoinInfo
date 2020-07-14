@@ -34,7 +34,7 @@ public function onJoin(PlayerJoinEvent $event){
 
      $week = ["日曜日","月曜日","火曜日","水曜日","木曜日","金曜日","土曜日"];
      $week[date("w")];
-	 $time = function (){ date(m:j); };
+	 $time = function (){ date("m:j"); };
 	 $info = $this->config->getall();
 	 $player = $event->getPlayer();
 	 $player->sendmessage("§aおかえりなさい！");
